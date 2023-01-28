@@ -12,3 +12,4 @@ projectile_sprites = pygame.sprite.Group()
 start_screen_group = pygame.sprite.Group()
 text_group = pygame.sprite.Group()
 buttons_group = pygame.sprite.Group()
+spawn_enemy_cooldown_const = 5

@@ -18,6 +18,5 @@ class Text(pygame.sprite.Sprite):
 
     # Проверяем нажатие
     def check_click(self, mouse):
-        print(self.rect.collidepoint(mouse))
         if self.rect.collidepoint(mouse):
             return self.text
